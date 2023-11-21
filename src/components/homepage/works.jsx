@@ -14,29 +14,31 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
+							<a href="https://www.asml.com/en" target="_blank" rel="noreferrer">
+								<img
+									src="./ASML.png"
+									alt="ASML"
+									className="work-image"
+								/>
+							</a>
+							<div className="work-title">ASML</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Software Engineer Intern
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">Summer 2023</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="./UVA.png"
+								alt="UVA"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">University of Virginia</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Aquatic Supervisor
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">January 2022 - May 2023</div>
 						</div>
 					</div>
 				}
