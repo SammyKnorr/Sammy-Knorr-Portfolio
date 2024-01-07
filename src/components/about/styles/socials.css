@@ -34,3 +34,18 @@
 .email-wrapper {
 	padding-top: 20px;
 }
+
+.button-rounded {
+	color: var(--secondary-color);
+    background-color: white; /* White background */
+    border: none; /* Removes the default border */
+    padding-top: 10px; /* Top and bottom padding 10px, left and right padding 20px */
+	padding-bottom: 10px;
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Allows setting padding and margins */
+    font-size: 14px; /* Set the font size */
+    border-radius: 3px; /* Rounded corners with a radius of 15px */
+    cursor: pointer; /* Changes the mouse pointer on hover */
+	font-weight: 600;
+	padding-left: 15px;
+}

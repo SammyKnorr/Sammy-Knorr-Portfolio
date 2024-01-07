@@ -9,7 +9,15 @@ import {
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
-
+const onButtonClick = () => {
+	const pdfUrl = ".\resume.pdf";
+	const link = document.createElement("a");
+	link.href = pdfUrl;
+	link.download = "SamuelKnorrResume.pdf"; // specify the filename
+	document.body.appendChild(link);
+	link.click();
+	document.body.removeChild(link);
+};
 const Socials = () => {
 	return (
 		<div className="socials">
@@ -56,6 +64,11 @@ const Socials = () => {
 						<div className="social-text">{INFO.main.email}</div>
 					</a>
 				</div>
+			</div>
+			<div className="button-rounded">
+				<button onClick={onButtonClick} className="button-rounded">
+                    Download Resume PDF
+                </button>
 			</div>
 		</div>
 	);
