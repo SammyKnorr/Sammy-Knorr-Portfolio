@@ -10,6 +10,7 @@ import INFO from "../../data/user";
 
 import "./styles/socials.css";
 
+
 const Socials = () => {
 	return (
 		<div className="socials">
@@ -57,7 +58,7 @@ const Socials = () => {
 					</a>
 				</div>
 			</div>
-			<a href="./Samuel-Knorr-Resume.pdf" download>Download CV</a>
+			<a href={process.env.PUBLIC_URL + "/Samuel-Knorr-Resume.pdf"} download="Samuel-Knorr-Resume.pdf">Download CV</a>
 		</div>
 	);
 };
