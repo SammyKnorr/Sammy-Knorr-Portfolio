@@ -21,7 +21,21 @@ const Works = () => {
 									className="work-image"
 								/>
 							</a>
-							<div className="work-title">ASML</div>
+							<div className="work-title">ASML, San Jose, CA</div>
+							<div className="work-subtitle">
+								DevOps Engineer Intern
+							</div>
+							<div className="work-duration">Summer 2024</div>
+						</div>
+						<div className="work">
+							<a href="https://www.asml.com/en" target="_blank" rel="noreferrer">
+								<img
+									src="./ASML.png"
+									alt="ASML"
+									className="work-image"
+								/>
+							</a>
+							<div className="work-title">ASML, Wilton, CT</div>
 							<div className="work-subtitle">
 								Software Engineer Intern
 							</div>

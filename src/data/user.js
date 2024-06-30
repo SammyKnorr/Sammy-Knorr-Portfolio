@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Future Software Engineer and Project Manager",
 		description:
-			"I am an aspiring software engineer and project manager, currently pursuing a B.S. in Computer Engineering with a minor in Engineering Business at the University of Virginia. My academic and professional experiences have equipped me with a strong foundation in React, Python, Java, and C++. I have honed my skills in agile software development through internships, such as my role at ASML Holding, where I led projects that significantly improved workflow efficiency. My passion for technology is further demonstrated in my personal projects, like developing a job application tracking website and a class review application. Recognized for my problem-solving abilities and a proactive approach, I am eager to take on challenging projects that push the boundaries of technological innovation.",
+			"I am an aspiring software engineer and project manager, currently pursuing a B.S. in Computer Engineering with a minor in Engineering Business at the University of Virginia. My academic and professional experiences have equipped me with a strong foundation in React, Python, Java, and C++. I have honed my software and devops skills through internships, such as my roles at ASML Holding. My passion for technology is further demonstrated in my personal projects, like developing a job application tracking website and a class review application. Recognized for my problem-solving abilities and a proactive approach, I am eager to take on challenging projects that push the boundaries of technological innovation.",
 	},
 
 	about: {
