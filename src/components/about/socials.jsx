@@ -58,7 +58,7 @@ const Socials = () => {
 					</a>
 				</div>
 			</div>
-			<a href={process.env.PUBLIC_URL + "/Samuel-Knorr-Resume-07-2024.pdf"} download="SKnorr-Resume.pdf">Download CV</a>
+			<a href={process.env.PUBLIC_URL + "/Samuel-Knorr-Resume.pdf"}>Download CV</a>
 		</div>
 	);
 };
