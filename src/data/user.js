@@ -25,6 +25,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Stock Sight",
+			description:
+				"Trained a Llama 3 8b model with 30,000 instructions to predict ETF stock closing prices. Deployed model with AWS and used on a Django-based website including users, portfolio management, REST API capabilities, and real-time stock data visualization. Implemented REST API feature for users to add portfolio information.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/SammyKnorr/DjangoProject",
+		},
+		{
 			title: "Git Runner Health Wallboard",
 			description:
 				"During my internship at ASML I developed a wallboard using JavaScript, Github Actions, and Github Pages to test the health of github runners and display the real time results on an office TV. Using GitHub actions I tested for mountpoint existence and writeability of runners automatically every six hours. Then using jquery and the GitHub API my wallboard code automatically read the results of the tests and updated a visual screen. After completion it was pushed to production.",
