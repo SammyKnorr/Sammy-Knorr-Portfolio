@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Future Software Engineer and Project Manager",
 		description:
-			"I am an aspiring software engineer and project manager, currently pursuing a B.S. in Computer Engineering with a minor in Engineering Business at the University of Virginia. My academic and professional experiences have equipped me with a strong foundation in React, Python, Java, and C++. I have honed my software and devops skills through internships, such as my roles at ASML Holding. My passion for technology is further demonstrated in my personal projects, like developing a job application tracking website and a class review application. Recognized for my problem-solving abilities and a proactive approach, I am eager to take on challenging projects that push the boundaries of technological innovation.",
+			"I am an aspiring software engineer and project manager, currently pursuing a B.S. in Computer Engineering with a minor in Engineering Business at the University of Virginia. My academic and professional experiences have equipped me with a strong foundation in React, Python, and Java. I have honed my software and devops skills through internships, such as my roles at ASML Holding. My passion for technology is further demonstrated in my personal projects, like developing a job application tracking website and a class review application. Recognized for my problem-solving abilities and a proactive approach, I am eager to take on challenging projects that push the boundaries of technological innovation.",
 	},
 
 	about: {
@@ -37,7 +37,7 @@ const INFO = {
 			description:
 				"During my internship at ASML I developed a wallboard using JavaScript, Github Actions, and Github Pages to test the health of github runners and display the real time results on an office TV. Using GitHub actions I tested for mountpoint existence and writeability of runners automatically every six hours. Then using jquery and the GitHub API my wallboard code automatically read the results of the tests and updated a visual screen. After completion it was pushed to production.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "Project Not Viewable, it is part of ASML's GitHub",
 			link: "",
 		},
 		{
@@ -45,7 +45,7 @@ const INFO = {
 			description:
 				"Another project during my internship at ASML which I led had me use Python, Github Actions, and REST API to automatically create git release reminder tickets for AI's and TL's. My Github Actions script was triggered when a release began and it started a Python script which used the REST API to automatically create outlined JIRA tickets. After completion my project was pushed to production.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
+			linkText: "Project Not Viewable, it is part of ASML's GitHub",
 			link: "",
 		},
 		{
@@ -63,7 +63,7 @@ const INFO = {
 				"Designed project with Java, JavaFX GUI, and SQlite. Developed an app allowing users to sign in or make an account and then leave a review for a class or see already created reviews. Used SQL to check if a class was already added by a user. Usernames and classes stored in two databases.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com/uva-cs3140-sp23/hw7-coursereview-jsm8st-njr4ss-njx7sq",
+			link: "https://github.com/SammyKnorr/CourseReview",
 		},
 
 		{
@@ -72,7 +72,7 @@ const INFO = {
 				"Utilized Java and JavaFX GUI to build a functioning wordle game similar to the NYT web game. Employed both white and black box unit testing to ensure a polished project free of bugs and provide positive user experience.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com/uva-cs3140-sp23/hw5-gui-jsm8st-dcq8fz-bhx5gh",
+			link: "https://github.com/SammyKnorr/MockWordle",
 		},
 
 		{
@@ -81,7 +81,7 @@ const INFO = {
 				"Collaborated with another developer to build a two player Python game. Utilized sprites, tracking, and key inputs to form a 1v1 'shooter' game including moving sprites and health bars along with a game over screen allowing for seamless replayability.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "",
+			link: "https://github.com/SammyKnorr/ShooterGame",
 		},
 
 	],
