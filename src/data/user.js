@@ -25,6 +25,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Artifactory Build Info",
+			description:
+				"Implemented JFrog Artifactory build info feature into build pipeline. Displays build metadata to assist in analysis. Employed PowerShell scripting to automate data collection, and publishing processes of dozens of builds. Build metadata included environment variables, associated Jira issues, git logs, artifacts, and dependencies.",
+			logo: "./powershell.png",
+			linkText: "Project Not Viewable, it is part of ASML's GitHub",
+			link: "",
+		},
+		{
 			title: "Stock Sight",
 			description:
 				"Trained a Llama 3 8b model with 30,000 instructions to predict ETF stock closing prices. Deployed model with AWS and used on a Django-based website including users, portfolio management, REST API capabilities, and real-time stock data visualization. Implemented REST API feature for users to add portfolio information.",
