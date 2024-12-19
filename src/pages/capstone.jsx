@@ -30,7 +30,7 @@ const Capstone = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
+				<NavBar active="capstone" />
 				<div className="content-wrapper">
 					<div className="capstone-logo-container">
 						<div className="capstone-logo">
@@ -49,10 +49,15 @@ const Capstone = () => {
 
                         <div className="media-container">
                             <div className="video-wrapper">
-                                <video controls className="capstone-video">
-                                    <source src={process.env.PUBLIC_URL + "/CapstoneDemoVideo.mp4"} type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/phO2JEbVJUA"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
                             </div>
 
                             <div className="pdf-wrapper">

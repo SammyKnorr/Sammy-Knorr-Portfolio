@@ -34,14 +34,26 @@
 
 .video-wrapper {
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 
-.capstone-video {
+.youtube-embed-container {
     max-width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    overflow: hidden;
+    /* Optional: Responsive scaling 
+       Adjust width/height ratio if desired
+    */
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+}
+
+.youtube-embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .pdf-wrapper {
