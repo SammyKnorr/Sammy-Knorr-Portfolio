@@ -66,6 +66,11 @@ const About = () => {
 								</div>
 							</div>
 						</div>
+						<iframe
+                            src={process.env.PUBLIC_URL + "/Samuel-Knorr-Resume.pdf"}
+                            className="resume-pdf"
+                            title="PDF Document"
+                        ></iframe>
 						<div className="about-socials-mobile">
 							<Socials />
 						</div>

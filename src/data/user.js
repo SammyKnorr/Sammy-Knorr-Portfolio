@@ -93,6 +93,11 @@ const INFO = {
 		},
 
 	],
+	capstone: {
+		title: "Undergaduate Capstone Project",
+		description:
+			"During my Fall 2024 Semester I completed my engineering capstone project. My team of five worked with the University of Virginia Swim and Dive team to produce a modified diving block. This uses force sensors to measure the force a swimmer dives off with and relays that data to a web app. A video demo and report of this project can be found below.",
+	},
 };
 
 export default INFO;

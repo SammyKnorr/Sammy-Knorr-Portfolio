@@ -13,6 +13,13 @@
 	top: 4vh;
 }
 
+.resume-pdf {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 .about-container {
 	display: flex;
 	flex-direction: column;
