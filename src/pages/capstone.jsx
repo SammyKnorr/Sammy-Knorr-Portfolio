@@ -1,5 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
+
+import LinkPreview from "../components/LinkPreview";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -67,6 +69,10 @@ const Capstone = () => {
                                     title="PDF Document"
                                 ></iframe>
                             </div>
+
+							<div>
+								<LinkPreview url="https://engineering.virginia.edu/news-events/news/your-final-assignment-build-system-improve-uva-swim-starts" />
+							</div>
                         </div>
 					</div>
 
