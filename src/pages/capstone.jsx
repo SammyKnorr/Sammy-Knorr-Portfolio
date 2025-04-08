@@ -73,6 +73,9 @@ const Capstone = () => {
 							<div>
 								<LinkPreview url="https://engineering.virginia.edu/news-events/news/your-final-assignment-build-system-improve-uva-swim-starts" />
 							</div>
+							<div>
+								<LinkPreview url="https://swimswam.com/uva-engineering-students-under-ken-ono-develop-smart-block-to-improve-start-efficiency/" />
+							</div>
                         </div>
 					</div>
 
